@@ -1,5 +1,5 @@
-// Load file of questions and answers
-var quest_ans = require('../data/quest-ans.js');
+// Load file of questions and answers. You can edit '../data/quest-ans.js'
+var quest_ans = require('../data/quest-ans.js'); // path to questions and answers
 
 module.exports = {
 	answer: function(question, params){
@@ -16,6 +16,7 @@ module.exports = {
 					answer = quest_ans[question];
 				}
 			} else {
+				// allQuestions() can be called here for user to see all possible questions
 				answer = 'I did not find an answer. Maybe try re-phrasing your query.'; 
 			}
 			return answer;
