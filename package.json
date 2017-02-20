@@ -12,13 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/aladdine/bot-recipe.git"
   },
-  "keywords": [
-    "bot",
-    "bot",
-    "recipe",
-    "bot",
-    "boilerplate"
-  ],
+  "keywords": ["bot"],
   "author": "Alaeddine Mokri <alaeddinemokri@gmail.com>",
   "license": "MIT",
   "bugs": {
