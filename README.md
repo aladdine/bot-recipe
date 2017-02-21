@@ -1,2 +1,2 @@
 # bot-recipe
-A node.js bot boilerplate for building bots in 5 mins or less.
+A node.js boilerplate for building bots in Node.
