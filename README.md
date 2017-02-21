@@ -1,3 +1,5 @@
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?style=flat-square)](https://github.com/aladdine/cpp-wrapper)
+
 # bot-recipe
 
 A node.js boilerplate for building bots in Node.
