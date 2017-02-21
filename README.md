@@ -9,5 +9,5 @@ A node.js boilerplate for building bots in Node.
 
 3- Update the queries
 
-# Download
+# download
 https://www.npmjs.com/package/bot-recipe
