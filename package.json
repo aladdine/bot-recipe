@@ -1,18 +1,23 @@
 {
   "name": "bot-recipe",
-  "description": "A node.js bot boilerplate for building bots in 5 mins or less.",
-  "version": "1.1.0",
+  "description": "A node.js boilerplate for building bots.",
+  "version": "1.2.0",
   "main": "src/index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./src/index.test.js -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aladdine/bot-recipe.git"
   },
-  "keywords": ["bot"],
+  "keywords": [
+    "bot"
+  ],
   "author": "Alaeddine Mokri <alaeddinemokri@gmail.com>",
   "license": "MIT",
   "bugs": {
