@@ -2,12 +2,13 @@
   "name": "bot-recipe",
   "description": "A node.js boilerplate for building bots.",
   "version": "1.2.0",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "6.23.0",
     "chai": "3.5.0",
-    "mocha": "3.2.0"
+    "mocha": "3.2.0",
+    "webpack": "2.2.1"
   },
   "scripts": {
     "test": "mocha ./src/index.test.js -w",
